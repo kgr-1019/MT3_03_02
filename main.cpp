@@ -179,7 +179,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		ImGui::Text("d:%f, %f, %f", d.x, d.y, d.z);
 		ImGui::Text("e:%f, %f, %f", e.x, e.y, e.z);
 		ImGui::Text(
-			"matrix:\n%f, %f, %f, %f\n\n%f, %f, %f, %f\n%f, %f, %f, %f\n%f, %f, %f, %f\n",
+			"matrix:\n%f, %f, %f, %f\n%f, %f, %f, %f\n%f, %f, %f, %f\n%f, %f, %f, %f\n",
 			rotateXYZMatrix.m[0][0], rotateXYZMatrix.m[0][1], rotateXYZMatrix.m[0][2],
 			rotateXYZMatrix.m[0][3], rotateXYZMatrix.m[1][0], rotateXYZMatrix.m[1][1],
 			rotateXYZMatrix.m[1][2], rotateXYZMatrix.m[1][3], rotateXYZMatrix.m[2][0],
